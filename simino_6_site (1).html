@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simino6 - Artiste Musicien</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #f2e8dc;
+      color: #1a1a1a;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: #fff;
+    }
+    header img {
+      width: 200px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    h2 {
+      margin-top: 40px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .video, .audio, .photos, .tour, .contact {
+      margin-top: 20px;
+    }
+    .photos img {
+      width: 100px;
+      margin: 5px;
+      border-radius: 8px;
+    }
+    .tour table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .tour th, .tour td {
+      border: 1px solid #aaa;
+      padding: 10px;
+    }
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .contact button {
+      padding: 10px 20px;
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Simino5.jpg" alt="Simino6">
+    <h1>Simino6</h1>
+    <p>Artiste. Créateur de musique.</p>
+  </header>
+
+  <section class="section">
+    <h2>À propos de Simino6</h2>
+    <p>
+      Simino6 est un artiste congolais passionné, qui transforme ses émotions en musique et ses expériences en art. À travers un style authentique et puissant, il mêle mélodie, message et vérité.<br><br>
+      Chaque morceau est une histoire vécue, chaque parole est une vibration du cœur. Son univers artistique, à la fois sensible et engagé, fait résonner des thèmes forts comme l’amour, les réalités sociales, et l’espoir.<br><br>
+      Une voix. Une vibe. Un style.<br>
+      Simino6, c’est plus qu’un son, c’est une signature.
+    </p>
+  </section>
+
+  <section class="section audio">
+    <h2>Musique</h2>
+    <audio controls>
+      <source src="musique.mp3" type="audio/mpeg">
+      Ton navigateur ne supporte pas la lecture audio.
+    </audio>
+  </section>
+
+  <section class="section video">
+    <h2>Clips / Vidéos</h2>
+    <video controls width="100%">
+      <source src="clip.mp4" type="video/mp4">
+      Ton navigateur ne supporte pas la lecture vidéo.
+    </video>
+  </section>
+
+  <section class="section photos">
+    <h2>Photos</h2>
+    <img src="photo1.jpg" alt="Photo 1">
+    <img src="photo2.jpg" alt="Photo 2">
+    <img src="photo3.jpg" alt="Photo 3">
+  </section>
+
+  <section class="section tour">
+    <h2>Prochaines Dates</h2>
+    <table>
+      <tr><th>Date</th><th>Ville</th><th>Billets</th></tr>
+      <tr><td>15 JUIL</td><td>Paris</td><td><a href="#">Acheter</a></td></tr>
+      <tr><td>25 AOÛT</td><td>Lyon</td><td><a href="#">Acheter</a></td></tr>
+      <tr><td>05 SEPT</td><td>Marseille</td><td><a href="#">Acheter</a></td></tr>
+    </table>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact / Booking</h2>
+    <form>
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Adresse mail" required>
+      <textarea placeholder="Message" rows="4" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+</body>
+</html>
